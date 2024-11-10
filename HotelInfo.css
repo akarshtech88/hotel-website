@@ -1,0 +1,62 @@
+.hotel-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hotel-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .hotel-details {
+    flex: 1;
+  }
+  
+  .hotel-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .hotel-address,
+  .hotel-rating {
+    color: #666;
+    margin: 4px 0;
+  }
+  
+  .amenities-title {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .hotel-amenities {
+    list-style: none;
+    padding: 0;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .amenity-item {
+    margin: 4px 8px 4px 0;
+    padding: 6px 12px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  .hotel-description {
+    margin-top: 12px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  
